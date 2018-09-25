@@ -26,6 +26,7 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+let g:go_version_warning=0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -124,7 +125,7 @@ endif
 
 
 " Add a bit extra margin to the left
-set foldcolumn=1
+set foldcolumn=0
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -173,14 +174,14 @@ set noswapfile
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+"set expandtab
 
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 8 spaces
+set shiftwidth=8
+set tabstop=8
 
 " Linebreak on 500 characters
 set lbr
